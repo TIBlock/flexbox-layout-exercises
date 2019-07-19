@@ -1,0 +1,53 @@
+.main-container{
+    font-family: 'Courier New', Courier, monospace;
+    background: 4px solid black;
+    margin: 5vh;
+}
+.header-container{
+    display: flex;
+    border: 10px solid black;
+    align-content: center;
+    justify-content: center;
+    height: 20vh;
+    background: lightblue;
+}
+.header {
+    font-size: 10vw;
+    align-self: center;
+}
+.middle-container{
+    display: flex;
+    border: 4px solid black;
+    height: 60vh;
+    flex-direction: row;
+}
+.middle-menu{
+    border: 4px solid black;
+    background: plum;
+    flex: 20;
+    text-align: left;
+}
+.middle-content{
+    border: 4px solid black;
+    background: lightpink;
+    flex: 60;
+    text-align: center;
+}
+.middle-advertisement{
+    border: 4px solid black;
+    background: plum;
+    flex: 20;
+    text-align: center;
+}
+.footer-container{
+    display: flex;
+    border: 10px solid black;
+    height: 20vh;
+    background: lightblue;
+    align-content: center;
+    justify-content: center;
+}
+.footer {
+    font-size: 10vw;
+    align-self: center;
+}
