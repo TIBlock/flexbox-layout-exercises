@@ -1,0 +1,19 @@
+.frame {
+    /* display:flex; */
+    border: 10px solid goldenrod;
+    height: 100vw;
+    /* width: 100vw; */
+}
+
+.block2 {
+    display: flex;
+    border-style: groove;
+    border-color: gray;
+}
+
+.block2 .section{
+    background: yellow;
+    border: 5px solid gray;
+    flex: 1;
+    height: 25%
+}
