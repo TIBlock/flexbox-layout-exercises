@@ -1,19 +1,74 @@
-.frame {
-    /* display:flex; */
+.blue {background-color: rgb(45, 127, 190);}
+.yellow {background-color: rgb(250, 227, 49);}
+.black {background-color: rgb(0, 0, 0);}
+.gray {background-color: rgb(64, 64, 64);}
+.red {background-color: rgb(233, 63, 51);}
+.white {background-color: rgb(255, 255, 255);}
+
+body 
+{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+/* the board IS NOT a board, it is space between with drop shadows ( at least I think it is */
+.frame 
+{
+    position: absolute;
+    display:flex;
     border: 10px solid goldenrod;
-    height: 100vw;
-    /* width: 100vw; */
+    height: 85vh;
+    width: 80vw;
+    margin-top: 3%;
 }
 
-.block2 {
+.column 
+{
     display: flex;
-    border-style: groove;
-    border-color: gray;
+    flex: 1;
+    border: 3px goldenrod solid;
+    flex-wrap: wrap;
 }
 
-.block2 .section{
-    background: yellow;
-    border: 5px solid gray;
+#column2_depth0 
+{
+    display:flex;
     flex: 1;
-    height: 25%
+    border: 3px rgb(64, 64, 64) solid;
+    max-height: 100%;
+    min-width: 46%;
+    flex-direction: column;
+}
+
+#rootColumn2 
+{
+    display:flex;
+}
+
+#column2_section0_depth1_rectangle1
+{
+    flex: 1;
+    border: 3px rgb(64, 64, 64) solid;
+}
+
+#column2_section0_depth1_rectangle2
+{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    border: 1px rgb(64, 64, 64) solid;
+}
+
+#column2_section0_depth2_rectangle1
+{
+    display: flex;
+    flex: 1;
+    border: 1px rgb(64, 64, 64) solid;
+}
+
+#column2_section0_depth3_rectangle1
+{
+    flex: 1;
+    border: 2px rgb(64, 64, 64) solid;
 }
