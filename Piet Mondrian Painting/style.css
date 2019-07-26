@@ -72,3 +72,22 @@ body
     flex: 1;
     border: 2px rgb(64, 64, 64) solid;
 }
+
+#column2_section1_depth1_rectangle1
+{   
+    flex: 2;
+    border: 2px rgb(64, 64, 64) solid;
+}
+
+#column2_section1_depth1_rectangle2
+{
+    flex: 2;
+    border: 2px rgb(64, 64, 64) solid;
+}
+
+#column2_section1_depth1_rectangle3
+{
+    flex: 1;
+    border: 2px rgb(64, 64, 64) solid;
+
+}
