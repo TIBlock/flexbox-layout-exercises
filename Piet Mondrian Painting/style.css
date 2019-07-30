@@ -353,7 +353,7 @@ body
 #lvl1_col0_box2
 {
     display: flex;
-    flex: 8;
+    flex: 9;
     border: 3px rgb(64, 64, 64) solid;
 
 }
@@ -377,5 +377,42 @@ body
 {
     flex: 2;
     border: 3px rgb(64, 64, 64) solid;
+
+}
+
+#lvl2_col0_box3
+{
+    display: flex;
+    flex: 2;
+    border: 3px rgb(64, 64, 64) solid;
+    flex-direction: column;
+}
+
+#lvl2_col0_box4
+{
+    display: flex;
+    flex: 7;
+    border: 3px rgb(64, 64, 64) solid;
+
+}
+
+#lvl3_col0_box1
+{
+    flex:1;
+    border: 3px rgb(64, 64, 64) solid;
+
+}
+#lvl3_col0_box2
+{
+    flex:2;
+    border: 3px rgb(64, 64, 64) solid;
+
+}
+
+#lvl3_col0_box3
+{
+    flex:2;
+    border: 3px rgb(64, 64, 64) solid;
+
 
 }
